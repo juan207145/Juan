@@ -1,0 +1,297 @@
+
+
+/* Estilos generales de la página */
+body {
+    background-color: antiquewhite; /* Color de fondo */
+    padding: 40px; /* Espaciado alrededor del contenido */
+ }
+ img {
+    max-width: 100%;
+    height: auto;
+}
+ 
+ /* Estilos para el encabezado principal */
+ header {
+    background-color:blanchedalmond;
+     font-size: 40px; /* Tamaño de fuente grande */
+     height: 180px; /* Altura del encabezado */
+     color: black; /* Color del texto */
+     text-align: center; /* Alineación centrada */
+ }
+ 
+ /* Estilos para la línea horizontal que separa secciones */
+ hr {
+     border: none; /* Elimina el borde predeterminado */
+     height: 7px; /* Grosor de la línea */
+     background-color: #D4B996; /* Color de la línea */
+     width: 100%; /* Ancho completo */
+     margin: auto; /* Centrado */
+ }
+ nav{
+    background-color:blanchedalmond;
+ }
+ /* Estilos para la navegación */
+ nav ul {
+     padding: 2em 1em; /* Espaciado alrededor de la lista */
+ }
+ 
+ /* Estilos de los elementos de la lista en la navegación */
+ nav li {
+     font-size: 30px; /* Tamaño de fuente */
+     display: flex; /* Usa flexbox para organizar los elementos */
+     align-items: center; /* Centra verticalmente */
+     margin-bottom: 20px; /* Espaciado entre elementos */
+     padding: 2em 1em;
+    
+ }
+ 
+ /* Estilos para las imágenes dentro de la navegación */
+ nav li img {
+     width: 150px; /* Ancho fijo */
+     height: auto; /* Altura ajustable */
+     margin-right: 30px; /* Espaciado a la derecha */
+     max-width: 100%; /* Asegura que no exceda el ancho */
+ }
+ 
+ /* Estilos para los enlaces en la navegación */
+ nav li a {
+    display: block;
+    padding: 15px 25px;
+    background-color: #8B4513; /* Marrón oscuro */
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+ }
+ 
+ /* Estilos para el efecto hover en los enlaces de navegación */
+ nav a:hover {
+     background-color: #D4B996; /* Cambia el fondo */
+     opacity: 0.7; /* Reduce la opacidad */
+ }
+ section{
+    background-color:blanchedalmond; 
+ }
+ /* Sección principal con imágenes y texto */
+ section div {
+     padding: 5em; /* Espaciado interno */
+     gap: 50px; /* Separación entre elementos */
+     display: flex; /* Organiza los elementos en línea */
+     align-items: center; /* Alinea verticalmente */
+     justify-content: center; /* Centra horizontalmente */
+     
+     
+ }
+ 
+ /* Estilos para los textos dentro de la sección */
+ section div p {
+    font-size: 80px; /* Tamaño grande de fuente */
+    display: block;
+    padding: 1em 1em;
+    color: black;
+    
+ }
+ 
+ /* Estilos para las imágenes dentro de la sección */
+ section div img {
+     width: 1000px; /* Ancho fijo */
+     height: auto; /* Altura proporcional */
+     max-width: 100%; /* Ajuste de tamaño */
+     transition: transform 0.3s ease-in-out; /* Animación en hover */
+ }
+ 
+ /* Estilos para los títulos dentro de los artículos */
+ section article h2 {
+     font-size: 50px; /* Tamaño grande para encabezados */
+     padding: 0em 1em;
+ }
+ 
+ /* Estilos para los párrafos en los artículos */
+ section article p {
+     font-size: 35px;
+     padding: 0em 1em;
+     margin-bottom: 5px;
+ }
+ 
+ /* Estilos para los enlaces en los artículos */
+ section article a {
+     font-size: 35px;
+     margin-bottom: 5px;
+ }
+ 
+ /* Estilos para las listas ordenadas en los artículos */
+ section article div ol {
+     margin-top: 0px;
+     font-size: 30px; /* Tamaño de fuente */
+     padding-left: 20px; /* Sangría para listas */
+ }
+ 
+ /* Estilos para los elementos de lista */
+ section article div ol li {
+     padding: 0.5em 0.5em; /* Espaciado dentro de los elementos */
+ }
+ img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+ 
+ /* Efecto de escala en imágenes al pasar el mouse */
+ img:hover {
+     transform: scale(1.1); /* Aumenta el tamaño */
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+ }
+
+ 
+ /* Estilos generales para las tablas */
+ table {
+     width: 80%; /* Ocupa todo el ancho disponible */
+     height: auto;
+     border-collapse: collapse; /* Elimina los espacios entre bordes */
+     border: 5px solid #654321; /* Borde de la tabla */
+     min-width: 300px; /* Ancho mínimo */
+     background-color: white;
+     opacity: 0.7;
+     margin: 20px auto;/* Define el ancho de la tabla */
+     text-align: center; /* Alinea el texto en las celdas */
+     border-radius: 10px; /* Bordes redondeados */
+     overflow: hidden; /* Evita que los bordes se corten */
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra ligera */
+ }
+/* Bordes redondeados en los títulos de la tabla */
+table th {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+table tr:hover {
+    background-color: #f0e6d2; /* Color más oscuro */
+    transition: background-color 0.3s ease-in-out;
+}
+ 
+ table tr th{
+    background-color:#F5F5DC ;
+    color: black; /* Asegurar buen contraste */
+    font-weight: bold;
+ }
+ 
+ /* Estilos para las celdas y encabezados de la tabla */
+ table td, table th {
+     border: 3px solid #654321; /* Borde interno */
+     padding: 10px; /* Espaciado interno */
+     text-align: left; /* Alineación del texto */
+     vertical-align: middle; /* Centra verticalmente el texto en las celdas */
+ }
+ 
+ /* Estilos para los títulos de la tabla */
+ h2 {
+     font-size: 35px;
+     text-align: center;
+ }
+ 
+ /* Estilos para los encabezados de la tabla */
+ table tr th {
+     font-size: 30px;
+ }
+ 
+ /* Estilos para las celdas de la tabla */
+ table tr td {
+     font-size: 25px;
+ }
+ 
+ /* Ajusta el tamaño de las imágenes dentro de la tabla */
+ table tr td img {
+     width: 180px;
+     height: auto;
+     transition: transform 0.3s ease-in-out; /* Efecto de escala */
+ }
+ 
+ /* Ajusta el margen superior de la línea horizontal */
+ hr {
+     margin-top: 50px;
+ }
+ @media screen and (max-width: 768px) {  
+    .table-container {
+        overflow-x: auto; /* Agrega desplazamiento horizontal si la tabla es más ancha que la pantalla */
+    }
+    
+    table {
+        min-width: 100%; /* Asegura que la tabla se expanda al 100% del contenedor */
+        font-size: 20px; /* Reduce el tamaño de la fuente para mejor legibilidad en pantallas pequeñas */
+    }
+    
+    table tr th, table tr td {
+        font-size: 18px; /* Ajusta el tamaño del texto dentro de las celdas para que se vea correctamente */
+        padding: 8px; /* Reduce el espaciado interno en las celdas para un diseño más compacto */
+    }
+    
+    table tr td img {
+        width: 120px; /* Reduce el tamaño de las imágenes dentro de la tabla para adaptarse mejor a la pantalla */
+    }
+}
+
+footer{
+    text-align: center;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media screen and (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        font-size: 25px;
+        height: auto;
+        padding: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        flex-direction: column;
+        text-align: center;
+        padding: 1em;
+    }
+
+    nav li img {
+        width: 80px; /* Reduce el tamaño de las imágenes del menú */
+    }
+
+    section div {
+        flex-direction: column;
+        gap: 20px;
+        padding: 2em;
+    }
+
+    section div img {
+        width: 100%; /* Ajuste automático */
+    }
+
+    section div p {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    table {
+        width: 100%;
+        overflow-x: auto;
+        display: block;
+    }
+
+    table img {
+        width: 50px;
+        height: auto;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
+
+
+
+
+
